@@ -27,4 +27,4 @@ jobs:
         pip install pytest
 
     - name: Run Tests with pytest
-      run: pytest  # Executa os testes com pytest
+      run: pytest teste_zoologico.py  # Executa os testes com pytest
