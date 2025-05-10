@@ -1,5 +1,5 @@
-import pytest
-
+import pytest 
+#commit pra testar
 def calcular_preco_ingressos(idade, quantidade):
     if quantidade < 1 or quantidade > 5:
         return "Erro: quantidade inválida"
